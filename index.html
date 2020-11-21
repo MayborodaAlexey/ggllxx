@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/main.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <div class="logo"><a href="#">ggllxx</a></div>
+          <div class="header-nav">
+            <ul class="flex-row">
+              <li class="flex-row-item"><a href="#">Главная</a></li>
+              <li class="flex-row-item"><a href="#">О нас</a></li>
+              <li class="flex-row-item"><a href="#">Продукты</a></li>
+              <li class="flex-row-item"><a href="#">Отзывы</a></li>
+              <li class="flex-row-item"><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="muzon">
+            <div class="play-music">
+              <div id="music-animation" class="music-animation">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+                <span class="bar bar5"></span>
+              </div>
+              <div class="music-toggle">
+                <a onClick="togglePlay()" id="toggle" data-text-swap="Music on"
+                  >Music off</a
+                >
+              </div>
+            </div>
+            <audio
+              id="music"
+              loop="loop"
+              src="https://web.opendrive.com/api/v1/download/file.json/OV84MDUyNTM1NF9aSXB6Sw?inline=1"
+            ></audio>
+          </div>
+          <div class="search">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+
+        <div class="header-txt">
+          <h2>creative studio</h2>
+          <!-- <h1 id="typewriter">Galaxy</h1> -->
+          <!-- new -->
+          <h1
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "Hi, Im Leha.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+          >
+            <span class="wrap"></span>
+          </h1>
+        </div>
+        <div class="features">
+          <ul class="features-ul">
+            <li class="features-item">
+              <a
+                ><i class="fas fa-drafting-compass"></i>Проработка структуры и
+                дизайна</a
+              >
+            </li>
+            <li class="features-item">
+              <a
+                ><i class="fas fa-cogs"></i>Адаптация сайта под все
+                устройства</a
+              >
+            </li>
+            <li class="features-item">
+              <a
+                ><i class="fab fa-js-square"></i>Разработка функционала на
+                JavaScript</a
+              >
+            </li>
+          </ul>
+          <div class="jump">
+            <a onClick="togglePlay()" id="jump-txt">jump</a>
+          </div>
+          <!-- печать -->
+          <div id="container1"></div>
+        </div>
+        <img src="./img/shibe.png" id="jump-img" class="header-img" alt="pic" />
+      </div>
+    </header>
+    <main></main>
+    <footer class="footer"></footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

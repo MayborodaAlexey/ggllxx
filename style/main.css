@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.header {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(255, 207, 84, 1) 11.2%,
+    rgba(255, 158, 27, 1) 91.1%
+  );
+  height: 950px;
+  width: 100%;
+}
+.logo {
+  font-size: 28px;
+  font-family: "Bungee", cursive;
+  font-weight: bold;
+}
+.logo a {
+  color: white;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.header-nav {
+}
+.flex-row {
+  display: flex;
+}
+.flex-row a {
+  color: white;
+}
+.flex-row-item {
+}
+.flex-row-item a {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+.flex-row-item a:hover {
+  background: black;
+}
+.fa-search {
+  padding: 20px;
+}
+.search a {
+  color: white;
+}
+.header-txt {
+  padding-top: 120px;
+  /* padding-left: 130px; */
+  color: white;
+  height: 250px;
+}
+.header-txt h2,
+h1 {
+  margin: 0;
+}
+.header-txt h2 {
+  font-size: 40px;
+  position: relative;
+  top: 70px;
+  left: 271px;
+  padding-top: 20px;
+}
+.header-txt h1 {
+  /* font-size: 178px;
+   */
+  font-size: 82px;
+  font-weight: bold;
+  position: relative;
+  /* top: -173px; */
+  top: 85px;
+}
+.header-img {
+  position: relative;
+  bottom: 630px;
+  right: -705px;
+  width: 50%;
+}
+.features-ul {
+  display: flex;
+}
+.features-item a {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 0 0;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.features-item:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.fa-cogs,
+.fa-drafting-compass,
+.fa-js-square {
+  font-size: 60px;
+  padding: 20px;
+}
+.footer {
+}
+.music-toggle a {
+  font-weight: bold;
+}
+.jump {
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+/* печать */
+#container1 {
+  justify-content: flex-start;
+  color: white;
+  font-size: 30px;
+}
